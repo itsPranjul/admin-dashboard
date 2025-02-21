@@ -6,6 +6,7 @@ import SalesPage from "./pages/SalesPage"
 import UserPage from "./pages/UserPage"
 import SettingsPage from "./pages/SettingsPage"
 import AnalyticsPage from "./pages/AnalyticsPage"
+import OrdersPage from "./pages/OrderPage"
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/users" element={<UserPage />}/>
         <Route path="/sales" element={<SalesPage />} />
         <Route path='/analytics' element={<AnalyticsPage />} />
+        <Route path="/orders" element={<OrdersPage />} />
         <Route path="/settings" element={<SettingsPage />} />
       </Routes>
     </div>
