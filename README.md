@@ -2,6 +2,8 @@
 
 A modern **Admin Dashboard** built using **React.js** and **Recharts**, providing insightful data visualizations and analytics for better decision-making.
 
+🌍 Live Demo: [Admin Dashboard](https://admin-dashboard-rp48.vercel.app/)
+
 ## 🚀 Features
 
 - 📈 **Data Visualization** – Interactive charts and graphs using **Recharts**.
@@ -30,3 +32,16 @@ A modern **Admin Dashboard** built using **React.js** and **Recharts**, providin
    ```sh
    git clone https://github.com/your-username/admin-dashboard.git
    cd admin-dashboard
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
+4. Build for production:
+   ```sh
+   npm run build
+   ```
